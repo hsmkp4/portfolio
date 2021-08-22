@@ -1,0 +1,58 @@
+.heroSec {
+  height: 90vh;
+  width: 100%;
+  /* overflow: hidden; */
+  background-color: rgb(24, 24, 24);
+  position: relative;
+}
+.heroSec__describ {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  /* margin-top: 2rem; */
+}
+
+.heroSec__describ > img {
+  width: 9%;
+  z-index: 4;
+}
+
+.heroSec__describ > h1 {
+  font-family: 'Lato', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 0 auto;
+  margin-top: 2rem;
+  color: white;
+  /* width: 50%; */
+  z-index: 4;
+}
+.heroSec__describ > p {
+  font-size: 1.4rem;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+  margin: 0 30rem;
+  margin-top: 0.5rem;
+  text-align: center;
+  z-index: 4;
+}
+
+.glow__all {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(
+    to right top,
+    rgba(42, 90, 213, 0.4) 20%,
+    rgb(24, 24, 24) 50%,
+    rgb(24, 24, 24) 65%,
+    rgba(213, 164, 42, 0.418) 100%
+  );
+  /* border-radius: 40%; */
+  z-index: 2;
+}

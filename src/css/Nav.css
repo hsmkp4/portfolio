@@ -1,0 +1,18 @@
+.nav {
+  height: 10vh;
+  background-color: rgba(12, 12, 12);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+.nav__name {
+  margin-left: 7rem;
+}
+
+.nav__details {
+  display: flex;
+  flex-basis: 20rem;
+  justify-content: space-between;
+  margin-right: 7rem;
+}

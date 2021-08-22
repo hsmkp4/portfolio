@@ -1,9 +1,11 @@
 import HeroSec from './components/HeroSec';
-import moduleName from './css/app.css';
+import Nav from './components/Nav';
+import './css/app.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
+      <Nav />
       <HeroSec />
     </div>
   );
