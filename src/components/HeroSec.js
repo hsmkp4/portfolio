@@ -16,6 +16,7 @@ function HeroSec() {
         </p>
         <div className="glow__right"></div>
         <div className="glow__left"></div>
+        <div className="glow1"></div>
         <div className="glow__all"></div>
       </div>
     </div>

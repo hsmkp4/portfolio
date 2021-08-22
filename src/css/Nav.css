@@ -1,10 +1,18 @@
 .nav {
-  height: 10vh;
-  background-color: rgba(12, 12, 12);
+  height: 12vh;
+  width: 100%;
+  background-color: rgba(14, 14, 14, 0.5);
+  /* background: transparent; */
+  position: absolute;
+
+  top: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: white;
+  z-index: 12;
+  /* opacity: 0.3; */
 }
 .nav__name {
   margin-left: 7rem;
