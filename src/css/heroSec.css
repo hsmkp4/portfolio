@@ -46,12 +46,10 @@
   bottom: 0;
   width: 100%;
   height: 90vh;
-  background-image: linear-gradient(
-    to right top,
-    rgba(42, 90, 213, 0.4) 20%,
-    rgb(24, 24, 24) 50%,
-    rgb(24, 24, 24) 65%,
-    rgba(213, 164, 42, 0.418) 100%
+  background-image: repeating-linear-gradient(
+    rgba(42, 90, 213, 0.4) 5%,
+    rgb(24, 24, 24) 15%,
+    rgba(213, 164, 42, 0.418) 20%
   );
   /* border-radius: 40%; */
   z-index: 2;
