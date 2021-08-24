@@ -1,0 +1,24 @@
+.aboutSec {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  color: white;
+  position: relative;
+}
+.aboutSec__title {
+  position: absolute;
+  writing-mode: vertical-lr;
+  text-orientation: sideways;
+  font-family: 'Inter', sans-serif;
+  font-size: 19rem;
+  margin-left: -7.5rem;
+}
+.about__wrapper {
+  display: flex;
+  margin-left: 20rem;
+  margin-right: 2rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 100vh;
+}

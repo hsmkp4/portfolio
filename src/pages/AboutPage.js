@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { pageAnimate } from '../animate';
+import AboutSec from '../components/AboutSec';
 
 function AboutPage() {
   return (
@@ -10,7 +11,7 @@ function AboutPage() {
       animate="show"
       exit="exit"
     >
-      <h1>i am hesam from iran</h1>
+      <AboutSec />
     </motion.div>
   );
 }

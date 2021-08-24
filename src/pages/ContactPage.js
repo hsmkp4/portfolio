@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { pageAnimate } from '../animate';
+import ContactSec from '../components/ContactSec';
 
 function ContactPage() {
   return (
@@ -10,7 +11,7 @@ function ContactPage() {
       animate="show"
       exit="exit"
     >
-      <h1>tell me more</h1>
+      <ContactSec />
     </motion.div>
   );
 }

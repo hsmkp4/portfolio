@@ -1,10 +1,12 @@
 import React from 'react';
 import SiteBase from './SiteBase';
 import '../css/SitesDetail.css';
+import { motion } from 'framer-motion';
+import { sitesCard } from '../animate';
 
 function SitesDetail({ sites }) {
   return (
-    <div className="siteDetail__wrap-top">
+    <motion.div className="siteDetail__wrap-top">
       <div className="siteDetail__wrap"></div>
       <div className="sitesDetail">
         {sites.map((s) => (
@@ -12,7 +14,7 @@ function SitesDetail({ sites }) {
         ))}
         <div className="sitesDetail__glow"></div>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

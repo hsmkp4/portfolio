@@ -24,3 +24,13 @@
   justify-content: space-between;
   margin-right: 7rem;
 }
+
+.nav__details-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.nav__details-link:hover {
+  color: #c34;
+  /* border-bottom: 1px solid white; */
+}
