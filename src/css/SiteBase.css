@@ -23,7 +23,9 @@
   padding-bottom: 1rem;
   font-size: 2.5rem;
   font-weight: 700;
+  cursor: pointer;
 }
+
 .siteBase__para > h3 {
   font-family: 'Lato', sans-serif;
   font-size: 1.2rem;
@@ -41,9 +43,17 @@
   width: 100%;
   /* height: 60vh; */
   object-fit: cover;
-  border-radius: 20px;
+  /* border-radius: 20px; */
   cursor: pointer;
 
   /* border-radius: 20px;
   box-shadow: 2px 5px 10px -3px rgb(66, 66, 66); */
+}
+
+.siteBase__img-wrap {
+  transition: transform 1s ease;
+  border-radius: 8px;
+}
+.siteBase__img-wrap:hover {
+  transform: scale(1.17) translateX(100px);
 }

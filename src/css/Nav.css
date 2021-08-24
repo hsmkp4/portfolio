@@ -16,6 +16,11 @@
 }
 .nav__name {
   margin-left: 7rem;
+  transition: transform 1s ease 0.1s;
+  cursor: crosshair;
+}
+.nav__name:hover {
+  transform: translateX(100px);
 }
 
 .nav__details {

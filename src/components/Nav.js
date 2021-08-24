@@ -3,6 +3,14 @@ import '../css/Nav.css';
 import { Link } from 'react-router-dom';
 
 function Nav() {
+  const handleClickWorks = () => {
+    window.scroll({
+      top: 1000,
+      left: 0,
+      behavior: 'smooth',
+    });
+  };
+
   return (
     <div className="nav">
       <h2 className="nav__name">Hesam A.Amiri</h2>
@@ -12,7 +20,9 @@ function Nav() {
             About
           </Link>
         </h3>
-        <h3 className="nav__details-link">Works</h3>
+        <h3 className="nav__details-link" onClick={handleClickWorks}>
+          Works
+        </h3>
         <h3>
           <Link className="nav__details-link" to="contact">
             Contact
