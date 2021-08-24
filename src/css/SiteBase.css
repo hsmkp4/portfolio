@@ -55,5 +55,5 @@
   border-radius: 8px;
 }
 .siteBase__img-wrap:hover {
-  transform: scale(1.17) translateX(100px);
+  transform: translateX(100px);
 }
