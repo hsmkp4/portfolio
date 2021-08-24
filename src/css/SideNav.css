@@ -13,6 +13,14 @@
   font-family: 'Inter', sans-serif;
   font-weight: 200;
 }
+.sideNav-logo {
+  position: absolute;
+  top: 2%;
+  left: 0;
+  margin-left: 1rem;
+  width: 80%;
+  cursor: pointer;
+}
 
 .sideNav__para > p {
   writing-mode: vertical-rl;

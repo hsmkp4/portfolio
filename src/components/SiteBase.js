@@ -13,7 +13,11 @@ function SiteBase({ site }) {
     control.start('hidden');
   }
 
-  console.log(view);
+  // console.log(view);
+  const handleGotoSite = () => {
+    const url = site.url;
+    window.open(url, '_blank');
+  };
   return (
     <div classname="site-page">
       <motion.div
@@ -32,6 +36,7 @@ function SiteBase({ site }) {
             alt="whateever"
             variants={imageCome}
             className="siteBase__img-img"
+            onClick={handleGotoSite}
           />
         </div>
       </motion.div>

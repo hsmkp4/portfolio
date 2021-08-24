@@ -70,6 +70,13 @@ export const heroTitle = {
       ease: 'easeOut',
     },
   },
+  exit: {
+    opacity: 0,
+    y: -200,
+    transition: {
+      duration: 0.8,
+    },
+  },
 };
 export const arrow = {
   hidden: {
@@ -107,6 +114,23 @@ export const sitesCard = {
     transition: {
       duration: 0.5,
       ease: 'easeIn',
+    },
+  },
+};
+
+export const logoSideBar = {
+  hidden: {
+    opacity: 0,
+    y: -400,
+    x: 400,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    x: 0,
+    transition: {
+      duration: 1,
+      ease: 'easeOut',
     },
   },
 };

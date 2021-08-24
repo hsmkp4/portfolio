@@ -42,6 +42,7 @@
   /* height: 60vh; */
   object-fit: cover;
   border-radius: 20px;
+  cursor: pointer;
 
   /* border-radius: 20px;
   box-shadow: 2px 5px 10px -3px rgb(66, 66, 66); */
