@@ -1,0 +1,38 @@
+.sideNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 5%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 20;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: 'Inter', sans-serif;
+  font-weight: 200;
+}
+
+.sideNav__para > p {
+  writing-mode: vertical-rl;
+  text-orientation: upright;
+  color: white;
+  margin-top: 10rem;
+}
+.sideNav__para > img {
+  width: 30px;
+}
+.sideNav__socials {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.sideNav__socials > img {
+  width: 45px;
+  cursor: pointer;
+}
+.sideNav__socials > img:hover {
+  transform: scale(1.3);
+}
