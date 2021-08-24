@@ -133,4 +133,13 @@ export const logoSideBar = {
       ease: 'easeOut',
     },
   },
+  exit: {
+    opacity: 0,
+    y: -400,
+    x: 400,
+    transition: {
+      duration: 1,
+      ease: 'easeOut',
+    },
+  },
 };

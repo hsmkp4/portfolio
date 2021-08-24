@@ -11,6 +11,7 @@
   z-index: 20;
   /* font-family: 'Lato', sans-serif; */
   font-family: 'Inter', sans-serif;
+
   font-weight: 200;
 }
 .sideNav-logo {
@@ -23,13 +24,16 @@
 }
 
 .sideNav__para > p {
-  writing-mode: vertical-rl;
+  font-family: 'Shadows Into Light', cursive;
+  writing-mode: vertical-lr;
   text-orientation: upright;
   color: white;
-  margin-top: 3rem;
-  /* margin-left: -4rem; */
-  font-size: 1rem;
-  font-weight: 700;
+  margin-top: 2.3rem;
+  height: 510px;
+  word-wrap: break-word;
+  margin-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 .sideNav__para > img {
   width: 30px;

@@ -5,17 +5,21 @@
   overflow: hidden;
   position: relative;
 }
-.loadingPage > h1 {
+.loadingPage__para {
   font-family: 'Shadows Into Light', cursive;
+  position: absolute;
   color: white;
-  position: fixed;
   writing-mode: vertical-lr;
-  text-orientation: upright;
-  font-weight: 100;
-  font-size: 1rem;
-  top: 12%;
-  padding-left: 2rem;
+  text-orientation: sideways;
+  /* font-family: 'Inter', sans-serif; */
+  font-size: 6rem;
+  top: 20%;
+  margin-left: -3rem;
   animation: textReveal 6s ease-in-out;
+  transition: transform 1s ease-in-out;
+}
+.loadingPage__para:hover {
+  transform: translateX(100px);
 }
 
 .loadingPage__logo {

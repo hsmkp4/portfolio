@@ -15,7 +15,7 @@ function LoadingLogo({ setLoadingPage }) {
       onClick={handlePageClick}
       className="loadingPage"
     >
-      <h1>Click anywhere you want </h1>
+      <h1 className="loadingPage__para">Click Anywhere </h1>
       <img src={logo} alt="logo" className="loadingPage__logo" />
       <div>
         <motion.svg
