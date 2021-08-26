@@ -78,6 +78,28 @@ export const heroTitle = {
     },
   },
 };
+export const heroTitleSmall = {
+  hidden: {
+    opacity: 0,
+    y: 50,
+  },
+  show: {
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      ease: 'easeOut',
+    },
+  },
+  exit: {
+    opacity: 0,
+    y: -50,
+    transition: {
+      duration: 0.8,
+    },
+  },
+};
+
 export const arrow = {
   hidden: {
     opacity: 0,

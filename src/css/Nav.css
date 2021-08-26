@@ -39,3 +39,9 @@
   color: #c34;
   /* border-bottom: 1px solid white; */
 }
+
+@media (max-width: 414px) {
+}
+
+@media (max-height: 545px) {
+}

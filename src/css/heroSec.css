@@ -11,8 +11,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 21rem;
-  /* margin-top: 2rem; */
+  /* padding-top: 21rem; */
+  margin-top: 21rem;
+  /* margin-bottom: auto; */
 }
 
 .heroSec__describ > img {
@@ -40,12 +41,7 @@
   text-align: center;
   z-index: 10;
 }
-.heroSec__describ-last {
-  /* color: cadetblue; */
-  /* margin: 5rem; */
 
-  padding: 2rem;
-}
 .heroSec__scroll {
   display: flex;
   width: 60%;
@@ -177,4 +173,70 @@
   background-size: auto, auto, auto, auto, auto, auto;
   background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
   background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+}
+
+/* @media (max-height: 960px) {
+  .heroSec__describ {
+   
+    margin-top: 12rem;
+  }
+} */
+/* @media (max-height: 760px) {
+  .heroSec__describ {
+   
+    margin-top: 12rem;
+  }
+} */
+/* @media (max-height: 640px) {
+  .heroSec__describ {
+   
+    margin-top: 12rem;
+  }
+} */
+
+@media (max-width: 414px) {
+  .heroSec {
+    /* margin-top: -30vh; */
+    /* top: 0; */
+    height: 780px;
+  }
+  .heroSec__describ {
+    margin-top: 14rem;
+    transition: all 1s ease;
+  }
+  .heroSec__describ > img {
+    width: 35%;
+  }
+  .heroSec__describ > h1 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    margin-top: 1.7rem;
+  }
+  .heroSec__describ > p {
+    font-size: 0.9rem;
+
+    font-weight: 300;
+
+    margin: 0 5rem;
+    margin-top: 0.5rem;
+  }
+
+  .glow__all {
+    height: 780px;
+  }
+  .glow1 {
+    height: 780px;
+  }
+  .glow2 {
+    height: 780px;
+  }
+  .glow3 {
+    height: 780px;
+  }
+}
+@media (max-height: 545px) {
+  .heroSec__describ {
+    margin-top: 6rem;
+    transition: all 1s ease;
+  }
 }
