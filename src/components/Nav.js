@@ -20,7 +20,7 @@ function Nav() {
             About
           </Link>
         </h3>
-        <h3 className="nav__details-link" onClick={handleClickWorks}>
+        <h3 className="nav__details-link nav-hidden" onClick={handleClickWorks}>
           Works
         </h3>
         <h3>

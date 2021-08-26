@@ -4,16 +4,20 @@
   margin-top: 10%;
   box-shadow: 0 0 140px 70px #672070;
 }
-.siteDetail__wrap {
-}
 
 .sitesDetail {
   /* border-radius: 28px; */
   width: 100%;
   background: linear-gradient(to top right, #9198e5, #e66465);
-  /* background: linear-gradient(to top right, #9198e5, #e66465); */
 
   z-index: 2;
   display: flex;
   flex-direction: column;
+}
+
+@media (max-width: 414px) {
+  .siteDetail__wrap-top {
+    margin-left: 0%;
+    margin-top: 10%;
+  }
 }

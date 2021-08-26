@@ -35,9 +35,7 @@
   font-size: 1.2rem;
   font-weight: 600;
 }
-.sideNav__para > img {
-  width: 30px;
-}
+
 .sideNav__socials {
   display: flex;
   flex-direction: column;
@@ -57,4 +55,42 @@
 .sideNav__socials-ic:hover {
   background-color: rgb(255, 255, 255);
   /* transform: scale(1.1); */
+}
+
+@media (max-width: 414px) {
+  .sideNav {
+    height: 100vh;
+  }
+  .sideNav__para > p {
+    margin-top: 6rem;
+    height: 300px;
+    margin-left: 2rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+  .sideNav__socials {
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+  }
+  .sideNav__socials-ic {
+    width: 30px;
+
+    margin-bottom: 0.3rem;
+
+    padding: 0rem;
+  }
+  .sideNav-logo {
+    margin-left: 1rem;
+    width: 120%;
+  }
+}
+
+@media (max-height: 555px) {
+  .sideNav__para > p {
+    margin-top: 4rem;
+    height: 200px;
+    margin-left: 2rem;
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
 }

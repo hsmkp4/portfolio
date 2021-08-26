@@ -4,6 +4,7 @@
   background-color: rgba(14, 14, 14, 0.7);
   /* background: transparent; */
   position: absolute;
+  font-family: 'Lato', sans-serif;
 
   top: 0;
   left: 0;
@@ -41,7 +42,20 @@
 }
 
 @media (max-width: 414px) {
-}
-
-@media (max-height: 545px) {
+  .nav__name {
+    margin-left: 1rem;
+  }
+  .nav__name:hover {
+    transform: translateX(0px);
+  }
+  .nav__details {
+    display: flex;
+    flex-basis: 10rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.3rem;
+  }
+  .nav-hidden {
+    display: none;
+  }
 }
