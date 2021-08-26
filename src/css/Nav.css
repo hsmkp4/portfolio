@@ -59,3 +59,18 @@
     display: none;
   }
 }
+@media (max-width: 768px) {
+  .nav__name {
+    margin-left: 1rem;
+  }
+  .nav__name:hover {
+    transform: translateX(0px);
+  }
+  .nav__details {
+    display: flex;
+    flex-basis: 16rem;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 0.3rem;
+  }
+}
