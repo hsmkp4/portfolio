@@ -12,13 +12,40 @@
   font-family: 'Inter', sans-serif;
   font-size: 19rem;
   margin-left: -7.5rem;
+  z-index: 2;
 }
+.aboutSec__img {
+  position: absolute;
+  top: 20px;
+  right: 15px;
+
+  width: 510px;
+}
+
 .about__wrapper {
-  display: flex;
-  margin-left: 20rem;
+  /* height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto 0;
+  margin-left: 18rem; */
+  /* height: 100%;
+  margin-left: 18rem;
   margin-right: 2rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  align-content: center;
-  height: 100vh;
+  align-content: center; */
+
+  display: grid;
+  margin-left: 18rem;
+  column-gap: 50px;
+  grid-template-columns: 500px 500px;
+  margin-top: 4rem;
+}
+.about__para-question {
+}
+
+.about__all {
+  justify-self: end;
 }

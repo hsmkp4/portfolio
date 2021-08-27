@@ -1,54 +1,95 @@
+import { AnimateSharedLayout } from 'framer-motion';
 import React from 'react';
 import '../css/aboutSec.css';
+
+import hes31 from '../img/hes31.svg';
+import hes32 from '../img/hes32.svg';
+import Toggle from './Toggle';
 
 function AboutSec() {
   return (
     <div className="aboutSec">
       <h1 className="aboutSec__title">About</h1>
+      <div>
+        <img src={hes31} alt="hes" className="aboutSec__img" />
+        {/* fill:#ce3534 */}
+      </div>
       <div className="about__wrapper">
-        <div className="about__para">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit minus
-            impedit vero, et dolorem nisi molestiae quo itaque praesentium
-            voluptates autem accusantium? Voluptates esse excepturi ratione a
-            itaque tempore voluptatum hic autem nesciunt, maiores dicta
-            exercitationem dignissimos architecto recusandae eius est mollitia
-            molestias laborum nostrum provident voluptatibus dolorem earum quae
-            quaerat! Quo libero atque minus quam, laborum aut adipisci velit
-            iure quod tempora dicta, fuga nihil asperiores voluptate tenetur
-            repellat, quas unde ullam dolore. Nulla autem natus voluptatibus
-            ratione, eius impedit? Voluptatem, culpa vel animi maiores
-            laboriosam a voluptates ducimus reiciendis atque eos molestias,
-            impedit, labore officiis magnam ut omnis nam? Saepe aperiam
-            cupiditate possimus maxime error, rem quasi. Non, earum qui.
-            Suscipit aspernatur commodi officia vel, vitae quis voluptate
-            accusantium minus saepe quae, adipisci molestiae ad perspiciatis hic
-            neque? Sed in illum vel magni expedita accusantium dolorum molestiae
-            excepturi obcaecati quia accusamus adipisci repellendus natus illo
-            assumenda harum, delectus tempore laudantium cupiditate, perferendis
-            ipsam repellat quasi amet. Qui doloremque aliquam recusandae nulla
-            maxime minus reiciendis commodi iure odio aspernatur molestias harum
-            illum, eaque eum assumenda consectetur ratione iusto praesentium sed
-            nemo at culpa quia numquam? Excepturi temporibus perspiciatis atque
-            vero ipsa quisquam, tempore rem sed, fuga similique explicabo
-            deleniti?
-          </p>
-        </div>
-        <div className="about__skill">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Voluptatibus asperiores cupiditate aperiam corrupti excepturi
-            impedit provident et, eaque ex commodi dicta modi blanditiis quas
-            quisquam suscipit. Unde ullam nam sequi obcaecati minus accusamus
-            soluta aliquam hic, repellendus eius, vitae aut?
-          </p>
-        </div>
-        <div className="about__road">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro,
-            officia?
-          </p>
-        </div>
+        <AnimateSharedLayout>
+          <div className="about__para">
+            <Toggle title="What’s my definition of success?">
+              <div className="about__para-question">
+                <p>
+                  Ever Try Ever Fail No Matter, Try Again Fail Again Fail
+                  Better.
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="what are your side skills?">
+              <div className="about__para-question">
+                <p>
+                  Architecture, logo design, video edit, music edit,
+                  photography. And also sports!.
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="How do I want others to see me?">
+              <div className="about__para-question">
+                <p>Strong and positive.</p>
+              </div>
+            </Toggle>
+            <Toggle title="What makes me sad?">
+              <div className="about__para-question">
+                <p>
+                  I am sad when someone thinks he is smart and doing a bad thing
+                  and also thinking I don't know what is going on!! This guy
+                  forgot that I am smarter one :D
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="What type of person do I want to be?">
+              <div className="about__para-question">
+                <p>
+                  Everyone can lean on me and say "we have great developer don't
+                  worry, he can do it" it is so big but I wanna be this guy.
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="WHAT IS MY WHY?">
+              <div className="about__para-question">
+                <p>
+                  Cause I love to build. What is better than websites, everyone
+                  can sit on chairs and enjoy it.
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="What makes me happy?">
+              <div className="about__para-question">
+                <p>
+                  I love to make unique website, I wanna learn and learn and
+                  again learn how can I achieve this purpose, it so excited to
+                  reach this level (I am laughing now for this sentence :D).
+                </p>
+              </div>
+            </Toggle>
+          </div>
+          <div className="about__all">
+            <Toggle title="What am I good at?">
+              <div className="about__skill">
+                <p>
+                  HTML, CSS, Sass, Grid, JavaScript, Es6, Responsive Design,
+                  React, Hooks, Router, Redux, Framer-motion, Git, npm, UX,
+                  Blockchain{' '}
+                </p>
+              </div>
+            </Toggle>
+            <Toggle title="What am I want to learn?">
+              <div className="about__road">
+                <p>Typescript, NextJs, GatsbyJs, WebGl, ThreeJs, </p>
+              </div>
+            </Toggle>
+          </div>
+        </AnimateSharedLayout>
       </div>
     </div>
   );

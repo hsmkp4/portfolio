@@ -10,10 +10,10 @@
   writing-mode: vertical-lr;
   text-orientation: sideways;
   font-family: 'Inter', sans-serif;
-  font-size: 19rem;
-  margin-left: -7.5rem;
+  font-size: 15rem;
+  margin-left: -5.5rem;
 }
-.contactSec__wrapper {
+/* .contactSec__wrapper {
   display: flex;
   margin-left: 20rem;
   margin-right: 2rem;
@@ -21,4 +21,4 @@
   align-items: center;
   align-content: center;
   height: 100vh;
-}
+} */
