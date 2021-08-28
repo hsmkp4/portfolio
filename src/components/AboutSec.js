@@ -1,5 +1,8 @@
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AnimateSharedLayout } from 'framer-motion';
 import React from 'react';
+import { useHistory } from 'react-router';
 import '../css/aboutSec.css';
 
 import hes31 from '../img/hes31.svg';
@@ -7,12 +10,21 @@ import hes32 from '../img/hes32.svg';
 import Toggle from './Toggle';
 
 function AboutSec() {
+  const history = useHistory();
   return (
     <div className="aboutSec">
       <h1 className="aboutSec__title">About</h1>
       <div>
         <img src={hes31} alt="hes" className="aboutSec__img" />
         {/* fill:#ce3534 */}
+      </div>
+      <div className="aboutSec__back">
+        <h2 onClick={() => history.push('/')}>BACK</h2>
+        <FontAwesomeIcon
+          className="aboutSec__back-arrow"
+          icon={faArrowRight}
+          size="1x"
+        />
       </div>
       <div className="about__wrapper">
         <AnimateSharedLayout>

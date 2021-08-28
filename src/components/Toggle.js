@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import '../css/Toggle.css';
 
 function Toggle({ children, title }) {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <motion.div className="toggle" layout onClick={() => setToggle(!toggle)}>
       <motion.h2 layout className="toggle-h2">

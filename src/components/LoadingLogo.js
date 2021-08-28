@@ -1,11 +1,21 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import sign from '../img/sign.svg';
 import logo from '../img/logo-haa.svg';
 import '../css/LoadingPage.css';
+import boldDrum from '../music/BoldPromise.mp3';
 
 import { motion } from 'framer-motion';
 
 function LoadingLogo({ setLoadingPage }) {
+  const audioRef = useRef();
+  useEffect(() => {
+    let timer = setTimeout(async () => {
+      await audioRef.current.play();
+    }, 800);
+    return () => {
+      clearTimeout(timer);
+    };
+  }, []);
   const handlePageClick = () => {
     setLoadingPage(false);
   };
@@ -42,6 +52,7 @@ function LoadingLogo({ setLoadingPage }) {
           />
         </motion.svg>
       </div>
+      <audio ref={audioRef} src={boldDrum}></audio>
     </motion.div>
   );
 }
