@@ -2,7 +2,7 @@ import React from 'react';
 import SiteBase from './SiteBase';
 import '../css/SitesDetail.css';
 import { motion } from 'framer-motion';
-import { sitesCard } from '../animate';
+// import { sitesCard } from '../animate';
 
 function SitesDetail({ sites }) {
   return (

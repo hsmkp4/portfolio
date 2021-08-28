@@ -19,7 +19,7 @@ function SiteBase({ site }) {
     window.open(url, '_blank');
   };
   return (
-    <div classname="site-page">
+    <div className="site-page">
       <motion.div
         ref={element}
         variants={compoCome}

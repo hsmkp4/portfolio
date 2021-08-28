@@ -13,12 +13,55 @@
   font-size: 15rem;
   margin-left: -5.5rem;
 }
-/* .contactSec__wrapper {
+.contactSec__wrapper {
   display: flex;
-  margin-left: 20rem;
+  margin-top: -8rem;
+  margin-left: 11rem;
   margin-right: 2rem;
   justify-content: center;
   align-items: center;
   align-content: center;
   height: 100vh;
-} */
+}
+.contactSec__para > h2 {
+  font-family: 'Inter', sans-serif;
+}
+.contactSec__para > p {
+  font-family: 'Inter', sans-serif;
+  margin-top: 0.5rem;
+  width: 900px;
+}
+.contactSec__social {
+  display: flex;
+  justify-content: space-around;
+  position: absolute;
+  bottom: 14rem;
+  left: 30%;
+  width: 40vw;
+}
+.contactSec__social > img {
+  width: 10rem;
+  cursor: pointer;
+}
+
+.contactSec__back {
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 2rem;
+  left: 48%;
+  width: 100px;
+}
+.contactSec__back > h2 {
+  cursor: pointer;
+}
+.contactSec__back-arrow {
+  animation: arrowMove 1s ease-in-out alternate infinite;
+}
+
+@keyframes arrowMove {
+  100% {
+    transform: translateX(20px) scale(1.1);
+  }
+}

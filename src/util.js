@@ -1,7 +1,7 @@
-import music from '../src/img/Screenshot 2021-08-22 220406.png';
-import food from '../src/img/Screenshot 2021-08-22 220454.png';
-import notebook from '../src/img/Screenshot 2021-08-22 220602.png';
-import netflix from '../src/img/Screenshot 2021-08-22 220621.png';
+import music from '../src/img/pic1.png';
+import food from '../src/img/pic3.png';
+import notebook from '../src/img/pic4.png';
+import netflix from '../src/img/pic2.png';
 
 const sites = [
   {

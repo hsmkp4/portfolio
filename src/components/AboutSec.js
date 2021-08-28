@@ -6,11 +6,11 @@ import { useHistory } from 'react-router';
 import '../css/aboutSec.css';
 
 import hes31 from '../img/hes31.svg';
-import hes32 from '../img/hes32.svg';
+// import hes32 from '../img/hes32.svg';
 import Toggle from './Toggle';
 
 function AboutSec() {
-  const history = useHistory();
+  let history = useHistory();
   return (
     <div className="aboutSec">
       <h1 className="aboutSec__title">About</h1>

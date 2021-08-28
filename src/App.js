@@ -9,7 +9,7 @@ import HomePage from './pages/HomePage';
 function App() {
   const [loadingPage, setLoadingPage] = useState(true);
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   return (
     <div className="app">
       <AnimatePresence exitBeforeEnter>
