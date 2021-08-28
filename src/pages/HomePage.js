@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import HeroSec from '../components/HeroSec';
 import LoadingLogo from '../components/LoadingLogo';
 import Nav from '../components/Nav';
@@ -10,21 +10,7 @@ import { pageAnimate } from '../animate';
 
 function HomePage({ loadingPage, setLoadingPage }) {
   const [sites, setSites] = useState(mySites);
-  // const audioRef = useRef();
 
-  // const audioUrl =
-  //   'https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-69838/zapsplat_sound_design_hit_kick_drum_hard_into_delayed_shrill_pads_70854.mp3';
-
-  // useEffect(() => {
-  //   let timer = setTimeout(async () => {
-  //     await audioRef.current.play();
-  //   }, 800);
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, []);
-
-  // console.log(sites);
   return (
     <div className="homePage">
       {loadingPage ? (
@@ -47,7 +33,6 @@ function HomePage({ loadingPage, setLoadingPage }) {
           </motion.div>
         </div>
       )}
-      {/* <audio ref={audioRef} src={boldDrum}></audio> */}
     </div>
   );
 }
