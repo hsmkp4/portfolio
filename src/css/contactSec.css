@@ -15,12 +15,13 @@
 }
 .contactSec__wrapper {
   display: flex;
+
   margin-top: -8rem;
   margin-left: 11rem;
   margin-right: 2rem;
   justify-content: center;
   align-items: center;
-  align-content: center;
+  /* align-content: center; */
   height: 100vh;
 }
 .contactSec__para > h2 {
@@ -63,5 +64,199 @@
 @keyframes arrowMove {
   100% {
     transform: translateX(20px) scale(1.1);
+  }
+}
+
+@media (max-width: 301px) {
+  .contactSec__title {
+    display: none;
+  }
+  .contactSec__para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSec__para > p {
+    /* transform: scale(0.7); */
+    width: 200px;
+    text-align: center;
+    /* margin-left: rem; */
+  }
+  .contactSec__para > h2 {
+    text-align: center;
+  }
+  .contactSec__wrapper {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    height: 100vh;
+  }
+  .contactSec__social {
+    transform: scale(0.5);
+    /* flex-direction: column; */
+    bottom: 4rem;
+    left: 30%;
+    width: 40vw;
+  }
+  .contactSec__social > img {
+    margin-top: 2rem;
+    padding: 0.5rem;
+  }
+}
+@media (max-width: 414px) and (min-width: 302px) {
+  .contactSec__title {
+    display: none;
+  }
+  .contactSec__wrapper {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    height: 100vh;
+  }
+  .contactSec__para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSec__para > p {
+    /* transform: scale(0.7); */
+    width: 200px;
+    text-align: center;
+    /* margin-left: rem; */
+  }
+  .contactSec__para > h2 {
+    text-align: center;
+  }
+  .contactSec__social {
+    transform: scale(0.5);
+    /* flex-direction: column; */
+    bottom: 4rem;
+    left: 30%;
+    width: 40vw;
+  }
+  .contactSec__social > img {
+    margin-top: 2rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 415px) {
+  .contactSec__title {
+    /* display: none; */
+    font-size: 12rem;
+    margin-left: -5.5rem;
+  }
+  .contactSec__wrapper {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    height: 100vh;
+  }
+  .contactSec__para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSec__para > p {
+    /* transform: scale(0.7); */
+    width: 200px;
+    text-align: center;
+    /* margin-left: rem; */
+  }
+  .contactSec__para > h2 {
+    text-align: center;
+  }
+  .contactSec__social {
+    transform: scale(0.5);
+    /* flex-direction: column; */
+    bottom: 4rem;
+    left: 30%;
+    width: 40vw;
+  }
+  .contactSec__social > img {
+    margin-top: 2rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .contactSec__title {
+    /* display: none; */
+  }
+  .contactSec__wrapper {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    height: 100vh;
+  }
+  .contactSec__para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSec__para > p {
+    /* transform: scale(0.7); */
+    width: 500px;
+    text-align: center;
+    /* margin-left: rem; */
+  }
+  .contactSec__para > h2 {
+    text-align: center;
+  }
+  .contactSec__social {
+    transform: scale(0.7);
+    /* flex-direction: column; */
+    bottom: 4rem;
+    left: 30%;
+    width: 40vw;
+    margin-bottom: -2rem;
+  }
+  .contactSec__social > img {
+    margin-top: 0rem;
+    padding: 1rem;
+    /* width: 30vw; */
+  }
+}
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .contactSec__title {
+    /* display: none; */
+  }
+  .contactSec__wrapper {
+    margin-top: -6rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    height: 100vh;
+  }
+  .contactSec__para {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contactSec__para > p {
+    /* transform: scale(0.7); */
+    width: 800px;
+    text-align: center;
+    /* margin-left: rem; */
+  }
+  .contactSec__para > h2 {
+    text-align: center;
+  }
+  .contactSec__social {
+    transform: scale(0.9);
+    /* flex-direction: column; */
+    bottom: 4rem;
+    left: 30%;
+    width: 40vw;
+    margin-bottom: 0rem;
+  }
+  .contactSec__social > img {
+    margin-top: 0rem;
+    padding: 1rem;
+    /* width: 30vw; */
   }
 }

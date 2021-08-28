@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react';
-// import sign from '../img/sign.svg';
+
 import logo from '../img/logo-haa.svg';
 import '../css/LoadingPage.css';
 import boldDrum from '../music/BoldPromise.mp3';
@@ -11,7 +11,7 @@ function LoadingLogo({ setLoadingPage }) {
   useEffect(() => {
     let timer = setTimeout(async () => {
       await audioRef.current.play();
-    }, 800);
+    }, 890);
     return () => {
       clearTimeout(timer);
     };

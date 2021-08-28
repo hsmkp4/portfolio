@@ -1,5 +1,7 @@
 .toggle {
   line-height: 1.8rem;
+  font-family: 'Lato', sans-serif;
+  z-index: 2;
 }
 .toggle-line {
   height: 3px;
@@ -9,4 +11,62 @@
 }
 .toggle-h2 {
   cursor: pointer;
+}
+
+@media (max-width: 301px) {
+  .toggle-line {
+    height: 1px;
+    width: 180px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 352px) and (min-width: 302px) {
+  .toggle-line {
+    height: 1px;
+    width: 230px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 414px) and (min-width: 353px) {
+  .toggle-line {
+    height: 1px;
+    width: 230px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 768px) and (min-width: 415px) {
+  .toggle-line {
+    height: 1px;
+    width: 400px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .toggle-line {
+    height: 1px;
+    width: 700px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
+}
+
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .toggle-line {
+    height: 1px;
+    width: 500px;
+
+    background-color: white;
+    margin: 1rem 0;
+  }
 }

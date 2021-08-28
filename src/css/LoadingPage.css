@@ -30,9 +30,6 @@
   animation: logoAnim 2s cubic-bezier(1, 0.12, 0.25, 1.01);
 }
 
-.loadingPage__sign {
-  width: 10%;
-}
 .loadingPage__sign-svg {
   width: 40%;
   position: absolute;
@@ -73,5 +70,64 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 414px) {
+  .loadingPage__para {
+    font-size: 3.5rem;
+    top: 10%;
+    margin-left: -2rem;
+  }
+  .loadingPage__logo {
+    width: 170px;
+    position: absolute;
+    top: 28%;
+    left: 29%;
+  }
+  .loadingPage__sign-svg {
+    width: 120%;
+    position: absolute;
+    top: 35%;
+    left: -25%;
+  }
+}
+@media (max-width: 768px) and (min-width: 415px) {
+  .loadingPage__para {
+    font-size: 4.5rem;
+    top: 20%;
+    margin-left: -2rem;
+  }
+  .loadingPage__logo {
+    width: 140px;
+    position: absolute;
+    top: 34%;
+    left: 39%;
+  }
+  .loadingPage__sign-svg {
+    width: 70%;
+    position: absolute;
+    top: 36%;
+    left: 40px;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+  .loadingPage__para {
+    font-size: 5.5rem;
+    top: 10%;
+    margin-left: -3rem;
+  }
+  .loadingPage__logo {
+    width: 140px;
+    position: absolute;
+    top: 34%;
+    left: 39%;
+  }
+  .loadingPage__sign-svg {
+    width: 600px;
+    position: absolute;
+    top: 28%;
+    left: 5%;
   }
 }
