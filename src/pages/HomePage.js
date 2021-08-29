@@ -27,9 +27,24 @@ function HomePage({ loadingPage, setLoadingPage }) {
             <HeroSec />
             <SideNav />
             <SitesDetail sites={sites} />
-            {/* <footer style={{ zIndex: 30, fontSize: '5rem' }}>
-              ever try ever fail no matter try again fail again fail better
-            </footer> */}
+            <div>
+              <p
+                style={{
+                  marginTop: '8rem',
+                  // fontFamily: 'Lato',
+                  fontFamily: 'Shadows Into Light',
+                  color: 'white',
+                  marginLeft: '1rem',
+                  marginBottom: '1rem',
+                  fontWeight: 400,
+                  fontSize: '.8rem',
+                  display: 'flex',
+                  justifyContent: 'center',
+                }}
+              >
+                Design and Developed by ME
+              </p>
+            </div>
           </motion.div>
         </div>
       )}
