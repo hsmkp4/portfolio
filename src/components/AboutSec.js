@@ -56,8 +56,9 @@ function AboutSec() {
                   {/* I am sad when someone thinks he is smart and doing a bad thing
                   and also thinking I don't know what is going on!! This guy
                   forgot that I am smarter one :D */}
-                  I am sad when someone thinks he is better than everyone else
-                  but he forgot he must compete with himself not others!
+                  I get sad when some people think they are better than
+                  everyone, but they forget that the real competition is with
+                  themselves not others!
                 </p>
               </div>
             </Toggle>
@@ -66,7 +67,8 @@ function AboutSec() {
                 <p>
                   {/* Everyone can lean on me and say "we have great developer don't
                   worry, he can do it" it is so big but I wanna be this guy. */}
-                  Everyone can lean on my skills and personality behavior.
+                  A person that Everyone can lean their trust on my skills and
+                  personality behavior.
                 </p>
               </div>
             </Toggle>
@@ -74,8 +76,9 @@ function AboutSec() {
               <div className="about__para-question">
                 <p>
                   {/* I try many things and realize that I am creator, then what is better than websites, everyone can enjoy it on their chairs. */}
-                  I try many things and realize that I am creator, then what is
-                  better than websites, everyone can enjoy it on their chairs.
+                  I try many things and realize that I am a creator, then what
+                  is better than websites, everyone can enjoy it on their
+                  chairs.
                 </p>
               </div>
             </Toggle>
@@ -85,8 +88,8 @@ function AboutSec() {
                   {/* I love to make unique website, I wanna learn and learn and
                   again learn how can I achieve this purpose, it so excited to
                   reach this level (I am laughing now for this sentence :D). */}
-                  I am happy when I discover myself better every day, after that
-                  make change with that power in my life.
+                  I am happy when I discover something better in myself every
+                  day; after that, make change with that power in my life.
                 </p>
               </div>
             </Toggle>
@@ -101,7 +104,7 @@ function AboutSec() {
                 </p>
               </div>
             </Toggle>
-            <Toggle title="What am I want to learn?">
+            <Toggle title="What do I want to learn?">
               <div className="about__road">
                 <p>Typescript, NextJs, GatsbyJs, WebGl, ThreeJs, </p>
               </div>
