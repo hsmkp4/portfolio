@@ -18,9 +18,6 @@ function HeroSec() {
           background and I know a lot of CSS tricks!. I can help you to improve
           your business with <span>modern websites</span>.
         </motion.p>
-        {/* <motion.p variants={heroTitle} className="heroSec__describ-last">
-          Then Let's go...
-        </motion.p> */}
         <div className="heroSec__scroll">
           <FontAwesomeIcon
             className="heroSec__scroll-down arr1"
