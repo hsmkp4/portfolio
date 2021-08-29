@@ -21,6 +21,9 @@
     background-color: white;
     margin: 1rem 0;
   }
+  .toggle-h2 {
+    font-size: 1.1rem;
+  }
 }
 @media (max-width: 352px) and (min-width: 302px) {
   .toggle-line {
@@ -29,6 +32,9 @@
 
     background-color: white;
     margin: 1rem 0;
+  }
+  .toggle-h2 {
+    font-size: 1.1rem;
   }
 }
 
@@ -39,6 +45,9 @@
 
     background-color: white;
     margin: 1rem 0;
+  }
+  .toggle-h2 {
+    font-size: 1.3rem;
   }
 }
 @media (max-width: 768px) and (min-width: 415px) {

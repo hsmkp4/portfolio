@@ -74,6 +74,9 @@
   .aboutSec__img {
     display: none;
   }
+  .about__para-question {
+    font-size: 0.7rem;
+  }
   .about__wrapper {
     display: grid;
     margin-left: 3rem;
@@ -106,6 +109,9 @@
   }
   .aboutSec__img {
     display: none;
+  }
+  .about__para-question {
+    font-size: 0.7rem;
   }
   .about__wrapper {
     display: grid;
@@ -144,11 +150,12 @@
   .about__wrapper {
     display: grid;
     margin-left: 3rem;
-
-    /* column-gap: 50px; */
     grid-template-columns: 230px;
     margin-top: 5rem;
     z-index: 10;
+  }
+  .about__para-question {
+    font-size: 0.9rem;
   }
   .aboutSec__back {
     bottom: 0rem;

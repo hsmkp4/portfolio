@@ -67,7 +67,7 @@ function AboutSec() {
                 </p>
               </div>
             </Toggle>
-            <Toggle title="WHAT IS MY WHY?">
+            <Toggle title="What is my Why?">
               <div className="about__para-question">
                 <p>
                   Cause I love to build. What is better than websites, everyone
