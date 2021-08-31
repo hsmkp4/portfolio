@@ -14,7 +14,7 @@ const sites = [
   {
     name: 'Netflix clone',
     url: 'https://netflix-clone-bb.netlify.app/',
-    warn: 'you need VPN for this site',
+    warn: 'you need VPN for this project',
     description: `Netflix Clone as its name shows, I tried to simulate that site and in this project I used react-router and redux to make it functional. For the backend I used firebase database and API is from TMDB. `,
     id: 2,
     img: netflix,

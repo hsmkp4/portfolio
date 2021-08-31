@@ -30,6 +30,10 @@ function SiteBase({ site }) {
           <motion.h2 variants={imageCome} onClick={handleGotoSite}>
             {site.name}
           </motion.h2>
+
+          <motion.h3 variants={imageCome} style={{ color: 'red' }}>
+            {site.warn}
+          </motion.h3>
           <motion.h3 variants={imageCome}>{site.description}</motion.h3>
         </div>
         <div className="siteBase__img-wrap">
