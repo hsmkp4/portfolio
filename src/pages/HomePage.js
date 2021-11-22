@@ -42,7 +42,7 @@ function HomePage({ loadingPage, setLoadingPage }) {
                   justifyContent: 'center',
                 }}
               >
-                Design and Developed by ME
+                Design and Developed by ME, 2021
               </p>
             </div>
           </motion.div>
