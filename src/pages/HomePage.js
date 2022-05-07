@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import HeroSec from '../components/HeroSec';
-import LoadingLogo from '../components/LoadingLogo';
-import Nav from '../components/Nav';
-import SideNav from '../components/SideNav';
-import mySites from '../util';
-import SitesDetail from '../components/SitesDetail';
-import { motion } from 'framer-motion';
-import { pageAnimate } from '../animate';
+import React, { useState } from "react";
+import HeroSec from "../components/HeroSec";
+import LoadingLogo from "../components/LoadingLogo";
+import Nav from "../components/Nav";
+import SideNav from "../components/SideNav";
+import mySites from "../util";
+import SitesDetail from "../components/SitesDetail";
+import { motion } from "framer-motion";
+import { pageAnimate } from "../animate";
 
 function HomePage({ loadingPage, setLoadingPage }) {
   const [sites, setSites] = useState(mySites);
@@ -30,16 +30,15 @@ function HomePage({ loadingPage, setLoadingPage }) {
             <div>
               <p
                 style={{
-                  marginTop: '8rem',
-                  // fontFamily: 'Lato',
-                  fontFamily: 'Shadows Into Light',
-                  color: 'white',
-                  marginLeft: '1rem',
-                  marginBottom: '1rem',
+                  marginTop: "8rem",
+                  fontFamily: "Shadows Into Light",
+                  color: "white",
+                  marginLeft: "1rem",
+                  marginBottom: "1rem",
                   fontWeight: 400,
-                  fontSize: '.8rem',
-                  display: 'flex',
-                  justifyContent: 'center',
+                  fontSize: ".8rem",
+                  display: "flex",
+                  justifyContent: "center",
                 }}
               >
                 Design and Developed by ME, 2021

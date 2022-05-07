@@ -1,28 +1,28 @@
-import React, { useEffect, useState } from 'react';
-import '../css/SideNav.css';
-import instagram from '../img/ins2.svg';
-import linkedin from '../img/link2.svg';
-import github from '../img/github-brands.svg';
-import email from '../img/mail2.svg';
-import logo from '../img/logo-haa.svg';
-import { motion } from 'framer-motion';
-import { heroTitle, logoSideBar } from '../animate';
+import React, { useEffect, useState } from "react";
+import "../css/SideNav.css";
+import instagram from "../img/ins2.svg";
+import linkedin from "../img/link2.svg";
+import github from "../img/github-brands.svg";
+import email from "../img/mail2.svg";
+import logo from "../img/logo-haa.svg";
+import { motion } from "framer-motion";
+import { heroTitle, logoSideBar } from "../animate";
 
 function SideNav() {
   const [showLogo, setShowLogo] = useState(false);
   const [showPara, setShowPara] = useState(true);
   const handleLinkedin = () => {
-    window.open('https://www.linkedin.com/in/hsmkp4/', '_blank');
+    window.open("https://www.linkedin.com/in/hsmkp4/", "_blank");
   };
   const handleGit = () => {
-    window.open('https://github.com/El-ition', '_blank');
+    window.open("https://github.com/hsmkp4", "_blank");
   };
   const handleInstagram = () => {
-    window.open('https://www.instagram.com/blockitffs/', '_blank');
+    window.open("https://www.instagram.com/blockitffs/", "_blank");
   };
   const handleEmail = () => {
-    navigator.clipboard.writeText('hesam.lfl@gmail.com');
-    alert('Email copied to your clipboard');
+    navigator.clipboard.writeText("hesam.lfl@gmail.com");
+    alert("Email copied to your clipboard");
   };
   const handleNavShow = () => {
     if (window.scrollY > 880) {
@@ -35,15 +35,15 @@ function SideNav() {
   };
 
   useEffect(() => {
-    window.addEventListener('scroll', handleNavShow);
-    return () => window.removeEventListener('scroll', handleNavShow);
+    window.addEventListener("scroll", handleNavShow);
+    return () => window.removeEventListener("scroll", handleNavShow);
   }, []);
 
   const handleLogoClick = () => {
     window.scroll({
       top: 0,
       left: 0,
-      behavior: 'smooth',
+      behavior: "smooth",
     });
   };
   return (

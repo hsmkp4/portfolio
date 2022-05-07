@@ -1,11 +1,11 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import React from 'react';
-import { useHistory } from 'react-router';
-import linkW from '../img/1_link.svg';
-import instW from '../img/1_inst.svg';
-import gitW from '../img/1_git.svg';
-import '../css/contactSec.css';
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import { useHistory } from "react-router";
+import linkW from "../img/1_link.svg";
+import instW from "../img/1_inst.svg";
+import gitW from "../img/1_git.svg";
+import "../css/contactSec.css";
 
 function ContactSection() {
   let newOne = useHistory();
@@ -13,7 +13,7 @@ function ContactSection() {
     <div className="contactSec">
       <h1 className="contactSec__title">Contact</h1>
       <div className="contactSec__back">
-        <h2 onClick={() => newOne.push('/')}>BACK</h2>
+        <h2 onClick={() => newOne.push("/")}>BACK</h2>
         <FontAwesomeIcon
           className="aboutSec__back-arrow"
           icon={faArrowRight}
@@ -32,19 +32,19 @@ function ContactSection() {
         <div className="contactSec__social">
           <img
             onClick={() =>
-              window.open('https://www.linkedin.com/in/hsmkp4/', '_blank')
+              window.open("https://www.linkedin.com/in/hsmkp4/", "_blank")
             }
             src={linkW}
             alt="linkedin"
           />
           <img
-            onClick={() => window.open('https://github.com/El-ition', '_blank')}
+            onClick={() => window.open("https://github.com/hsmkp4", "_blank")}
             src={gitW}
             alt="github"
           />
           <img
             onClick={() =>
-              window.open('https://www.instagram.com/blockitffs/', '_blank')
+              window.open("https://www.instagram.com/blockitffs/", "_blank")
             }
             src={instW}
             alt="instagram"
