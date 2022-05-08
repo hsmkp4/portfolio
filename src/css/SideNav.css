@@ -10,7 +10,7 @@
   align-items: center;
   z-index: 20;
   /* font-family: 'Lato', sans-serif; */
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 
   font-weight: 200;
 }
@@ -24,7 +24,7 @@
 }
 
 .sideNav__para > p {
-  font-family: 'Shadows Into Light', cursive;
+  font-family: "Shadows Into Light", cursive;
   writing-mode: vertical-lr;
   text-orientation: upright;
   color: white;
@@ -92,6 +92,7 @@
     margin-left: 2rem;
     font-size: 0.6rem;
     font-weight: 400;
+    /* display: none; */
   }
   .sideNav__socials {
     margin-bottom: 1rem;
